@@ -17,6 +17,17 @@ p{
     border-bottom: solid 2px #ddd;
 }
 
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #4aaaa5;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+	
 .navbar-inverse {
     font-family: "Georgia", "Times-New-Roman", times, serif;
     background-color: white;
