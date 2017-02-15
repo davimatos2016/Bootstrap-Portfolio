@@ -1,0 +1,113 @@
+/* body */
+
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url("../images/halftone.png");
+}
+
+h1{
+    color: white:;
+}
+
+p{
+    line-height: 1.8;
+}
+.navbar-fixed-top {
+    border-bottom: solid 2px #ddd;
+}
+
+.navbar-inverse {
+    font-family: "Georgia", "Times-New-Roman", times, serif;
+    background-color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #4aaaa5;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.thumbnail .caption{
+    color: white;
+}
+
+.panel {
+    background-color: #eee;
+}
+
+.panel-default{
+    background-color:white;
+}
+
+.panel-default>.panel-heading{
+    background-color:white;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+.panel-title {
+    font-family: "Georgia", "Times-New-Roman", times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding: 10px;
+}
+
+
+/*bio-pic image */
+
+
+.img-rounded {
+    width: 250px;
+    height: 275px;
+    margin-right:10px;
+}
+
+.conpic {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.conpic {
+    width: 60px;
+    height: 60px;
+}
+
+.thumbnail {
+    display:inline-block;
+    min-width: 175px;
+    max-width: 250px;
+}
+
+.caption {
+    background-color: #4aaaa5;
+    min-width: 230px;
+    max-width: 250px;
+    bottom: 55px;
+    text-align: center;
+}
+
+
+
+/*footer*/
+
+.navbar-fixed-bottom {
+    padding-top: 15px;
+    border-top: solid 4px #4aaaa5;
+    background-color: #666666; 
+    color: white;
+    height: 80px;
+    vertical-align: bottom;
+    }
+
+.btn-primary {
+    background-color:#4aaaa5;
+}
